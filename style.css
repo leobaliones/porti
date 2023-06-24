@@ -1,0 +1,59 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    background-image: url(Design\ sem\ nome.png); 
+    background-size: cover;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+
+.menu {
+    text-align: center;
+    width: 900px;
+    color: yellow;
+    margin: 20px auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    border: solid 1px;
+    border-radius: 30px;
+    
+}
+div.eu img{
+    
+    margin: 40px auto;
+    display: flex;
+    border-radius: 100%;
+    border: solid rgb(235, 235, 82);
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.menu > a {
+    color: white;
+    margin: 0 10px;
+    padding-right: 8px;
+    border-right: 2px solid white;
+    
+}
+
+.sobre_mim {
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, serif;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+    width: 50%;
+
+}
